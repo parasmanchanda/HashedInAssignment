@@ -1,0 +1,298 @@
+/* My Profile */
+
+.profile-container{
+    width: 1640px;
+    height: 979px;
+    opacity: 1;
+    display: flex;
+    margin: 0px auto;
+    margin-bottom: 0px;
+    flex-direction: column;
+  }
+  
+  #myprofile{
+    display: flex;
+    margin-top: 20px;
+    height: 900px;
+  }
+  
+  .profile-left{
+    display: flex;
+    top: 222px;
+    left: 140px;
+    width: 260px;
+    height: 200px;
+    opacity: 1;
+    background: transparent 0% 0% no-repeat padding-box;
+    border: none;
+  }
+  
+  .my-profile-form{
+    top: 222px;
+    left: 416px;
+    width: 1364px;
+    height: 800px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    display: flex;  
+    flex-direction: column;
+    padding: 20px;
+   
+  }
+  
+  .form-group-info{
+    display: flex;
+    width: 1182px;
+    height: 61.65px;
+    margin-left: 1rem;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .col-info{
+    display: flex;
+    flex-direction: column;
+    height: 61.65px;
+    width: 300px;
+  }
+  
+  .label{
+    top: 243px;
+    left: 440px;
+    width: 85px;
+    height: 15px;
+    text-align: left;
+    font: normal normal medium 12px/15px Montserrat !important;
+    letter-spacing: 0px;
+    color: #454545;
+    margin-bottom: 10px;
+  }
+  
+  .col-info input{
+    top: 265px;
+    left: 439px;
+    width: 300px;
+    height: 40px;
+    background: #F7F8FF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding: 10px;
+  }
+  
+  .form-userinfo-txt-area{
+    display: flex;
+    height: 188px;
+    width: 739.1px;
+    margin-left: 1rem;
+  }
+  
+  .text-area{
+    top: 343px;
+    left: 438px;
+    width: 739px;
+    height: 163px;
+    background: #F6F8FF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    padding: 10px;
+  }
+  
+  .fg-checkbox-container{
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+    height: 130px;
+    justify-content: space-evenly;
+    margin-left: 20px;
+  }
+  
+  .checkbox{
+    margin-right: 10px;
+    vertical-align: baseline;
+    top: 662px;
+    left: 439px;
+    width: 24px;
+    height: 24px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+    color: #FF6738;
+  }
+  
+  /* For checkbox */
+  
+  .container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font: normal normal medium 14px/18px Montserrat !important;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #FF6738;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  
+  /* For Radio */
+  
+  /* Create a custom radio button */
+  .radio-checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .radio-checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  .container input:checked ~ .radio-checkmark {
+    background-color: #FF6738;
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .radio-checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .container input:checked ~ .radio-checkmark:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .container .radio-checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+  }
+  
+  .st-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    height: 90px;
+    justify-content: space-evenly;
+    margin-top: 15px;
+  }
+  
+  .more-info-section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    padding: 10px 20px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E0E0E0;
+    opacity: 1;
+    height: 200px;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  .radio-row{
+    display: flex;
+    margin-top: 10px;
+    width: 500px;
+    justify-content: space-between;
+  }
+  
+  .input{
+    top: 1094px;
+    left: 438px;
+    width: 300px;
+    height: 40px;
+    background: #F7F8FF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    Padding: 10px;
+  }
+  
+  .save-button{
+    top: 1176px;
+    left: 1608px;
+    width: 145px;
+    height: 40px;
+    background: transparent #FF6738 0% 0% no-repeat padding-box;
+    opacity: 1;
+    background-color: #FF6738;
+    color:white;
+    border: none
+  }
+  
+  .save-button:hover{
+    transform: scale(1.1) perspective(1px);
+  }
+
+  .btn-container{
+    display: flex;
+    justify-content: flex-end;
+    height: 70px;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  

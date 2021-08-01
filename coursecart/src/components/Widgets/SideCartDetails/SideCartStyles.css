@@ -1,0 +1,86 @@
+
+/* Cart Details */
+.section-cart-details{
+    top: 283px;
+    left: 1382px;
+    width: 398px;
+    height: 680px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cart-header{
+    display: flex;
+    height: 50px;
+    width: 398px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #948989;
+  }
+  
+  .cart-title{
+    top: 308px;
+    left: 1481px;
+    width: 200px;
+    height: 22px;
+    text-align: left;
+    font: normal normal 600 18px/22px Montserrat;
+    letter-spacing: 0px;
+    opacity: 1;
+    margin: 22px;
+  }
+  
+  .cart-body{
+    height: 530px;
+    border-bottom: 1px solid #948989;
+    padding: 20px;
+  }
+  
+  .cart-empty-message{
+    top: 378px;
+    left: 1403px;
+    width: 343px;
+    height: 38px;
+    text-align: left;
+    font: italic normal medium 16px/19px Montserrat;
+    letter-spacing: 0px;
+    color: #AAAAAA;
+    opacity: 1;
+  }
+  
+  .cart-footer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .cart-value{
+    top: 885px;
+    left: 1413px;
+    width: 130px;
+    height: 19px;
+    text-align: left;
+    font: normal normal medium 16px/19px Montserrat;
+    letter-spacing: 0px;
+    color: #080808;
+    opacity: 1;
+    display: flex;
+  }
+  
+  .cart-amount{
+    top: 911px;
+    left: 1411px;
+    width: 120px;
+    height: 34px;
+    text-align: left;
+    font: normal normal bold 28px/34px Montserrat;
+    letter-spacing: 0px;
+    color: #080808;
+    opacity: 1;
+  }

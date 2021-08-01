@@ -1,0 +1,316 @@
+
+/* Course Information */
+
+#courses-info{
+    width: 1920px;
+    height: 750px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+ }
+    
+    .courses-header{
+      display: flex;
+      margin-left: 20px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+      align-items: center;
+    }
+    
+    .cm-title{
+      top: 229px;
+      left: 157px;
+      width: 129px;
+      height: 20px;
+      text-align: left;
+      font: normal normal 300 20px/24px Montserrat !important;
+      letter-spacing: 0px;
+      color: #0F1317;
+      opacity: 1;
+    }
+
+    .cm-course-title{
+      top: 229px;
+      left: 320px;
+      width: 284px;
+      height: 20px;
+      text-align: center;
+      font: normal normal bold 20px/24px Montserrat;
+      letter-spacing: 0px;
+      color: #0F1317;
+      opacity: 1;
+    }
+    
+    .arrow-icon{
+     margin-right: 0px;
+    }
+
+    .info-nav-left{
+      width: 1920px;
+      height: 283px;
+      background: #0F1317 0% 0% no-repeat padding-box;
+      border-radius: 4px;
+      opacity: 1;
+      display: flex;
+    }
+    
+    .info-title{
+      display: flex;
+      flex-direction: column;
+      flex-basis: 50%;
+      width: 795px;
+      height: 283px;
+      padding: 40px;
+    
+    }
+    
+    .course-heading{
+      top: 328px;
+      left: 152px;
+      width: 795px;
+      height: 58px;
+      text-align: left;
+      font: normal normal 600 24px/29px Montserrat;
+      letter-spacing: 0px;
+      color: #FFFFFF;
+      opacity: 1;
+      display: flex;
+      margin-top: 20px;
+    }
+    
+    .course-description{
+      top: 402px;
+      left: 152px;
+      width: 702px;
+      height: 22px;
+      text-align: left;
+      font: normal normal 300 18px/22px Montserrat;
+      letter-spacing: 0px;
+      color: #FFFFFF;
+      opacity: 1;
+      display: flex;
+    }
+    
+    .info-btn-container{
+      display: flex;
+    }
+    
+    .course-info-btn{
+      top: 506px;
+      left: 248px;
+      width: 63px;
+      height: 15px;
+      text-align: center;
+      font: normal normal 300 12px/15px Montserrat;
+      letter-spacing: 0px;
+      color: #080808;
+      opacity: 1;
+      margin-right: 20px;
+    }
+    
+    .course-author{
+      top: 462px;
+      left: 152px;
+      width: 288px;
+      height: 19px;
+      text-align: left;
+      font: normal normal 300 16px/19px Montserrat;
+      letter-spacing: 0px;
+      color: #FF9271;
+      opacity: 1;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+    
+    .info-header{
+      display: flex;
+      margin-bottom: 10px;
+      font: normal normal medium 20px/24px Montserrat;
+
+    }
+
+    .info-container{
+     display: flex;
+     height: 272px;
+    }
+    
+    .info-nav-right{
+      top: 328px;
+      left: 1106px;
+      width: 674px;
+      height: 332px;
+      background: #000000 0% 0% no-repeat padding-box;
+      border: 1px solid #E0E0E0;
+      opacity: 1;
+      margin-top: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  
+    }
+    
+    .info-details{
+      top: 581px;
+      left: 140px;
+      width: 950px;
+      height: 372px;
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      border: 1px solid #E0E0E0;
+      opacity: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding-left: 10px;
+      padding-top: 10px;
+      padding-right: 60px;
+      padding-bottom: 30px;
+      margin-bottom: 10px; 
+    }
+
+    .info{
+      display: flex;
+      top: 638px;
+      left: 152px;
+      width: 702px;
+      height: 44px;
+      text-align: left;
+      font: normal normal 300 18px/22px Montserrat;
+      letter-spacing: 0px;
+      color: #000000;
+      opacity: 1;
+    }
+    
+    .add-on{
+    width: 674px;
+    height: 270px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E0E0E0;
+    opacity: 1;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    margin-left: 10px;
+    }
+    
+    .discounted-price{
+      top: 741px;
+      left: 1126px;
+      width: 106px;
+      height: 24px;
+      text-align: left;
+      text-decoration: line-through;
+      font: normal normal 300 20px/24px Montserrat;
+      letter-spacing: 0px;
+      color: #080808;
+      opacity: 1;
+      margin-top: 10px;
+    }
+    
+    .price{
+      top: 698px;
+      left: 1126px;
+      width: 142px;
+      height: 37px;
+      text-align: left;
+      font: normal normal bold 30px/37px Montserrat;
+      letter-spacing: 0px;
+      color: #080808;
+      opacity: 1;
+    }
+    
+    .clock-icon{
+      top: 784px;
+      left: 1126px;
+      width: 25px;
+      height: 25px;
+      background: transparent 0% 0% no-repeat padding-box;
+      opacity: 1;
+      
+    }
+    
+    .wishlistbtn{
+      background: transparent 0% 0% no-repeat padding-box;
+      border: 1px solid #FF6738;
+      border-radius: 4px;
+      opacity: 1;
+      color: #FF6738;
+      top: 854px;
+      left: 1450px;
+      width: 308px;
+      height: 51px;
+      font: normal normal 300 19px Montserrat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .wishlistbtn:hover{
+      transform: scale(1.1) perspective(1px);
+    }
+    
+    .wishlisticon{
+      top: 866px;
+      left: 1686px;
+      width: 16px;
+      height: 24px;
+      background: transparent 0% 0% no-repeat padding-box;
+      opacity: 1;
+      align-items: center;
+      font-size: 19px;
+      margin-left: 10px;
+    }
+    
+    .time-left{
+      top: 784px;
+      left: 1165px;
+      width: 242px;
+      height: 45px;
+      background: transparent no-repeat padding-box;
+      opacity: 1;
+      align-items: center;
+      display: flex;
+    }
+    
+    .time-text{
+      display: flex;
+      margin-left: 10px;
+    }
+    
+    .container-checkout{
+      display: flex;
+      margin-top: 20px;
+      align-items: center;
+      margin-right: 10px;
+    justify-content: space-between;
+    }
+    
+    .add-cart-btn{
+      top: 854px;
+      left: 1126px;
+      width: 308px;
+      height: 51px;
+      background: transparent 0% 0% no-repeat padding-box;
+      opacity: 1;
+    }
+    
+    .add-cart-btn:hover{
+      transform: scale(1.1) perspective(1px);
+    }
+
+    .play-icon{
+      top: 462px;
+      left: 1411px;
+      width: 64px;
+      height: 64px;
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      opacity: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center; 
+      font-size: 70px; 
+    }

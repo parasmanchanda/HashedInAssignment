@@ -1,0 +1,15 @@
+#wishlist-section{
+    display: flex;
+    width: 1640px;
+    height:690px;
+    background: transparent 0% 0% no-repeat padding-box;
+    margin-bottom: 0px;
+    justify-content: flex-start;
+    margin-left: 10px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.filter{
+    margin-bottom: 20px;
+}

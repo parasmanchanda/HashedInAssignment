@@ -1,0 +1,107 @@
+/* Header and Navigation bar */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 60px;
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+  }
+  
+  .branding-icon{
+    top: 10px;
+    left: 24px;
+    width: 128px;
+    height: 41px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-left: 1rem;
+  }
+  
+  .nav{
+    display: flex;
+    flex-basis: 30%;
+    align-items: center;
+  }
+  
+  .nav ul{
+    display: flex;
+  }
+  
+  .nav ul li{
+    padding-right: 1rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .heading-course{
+    top: 21px;
+    left: 1507px;
+    width: 81px;
+    height: 19px;
+    text-align: left;
+    font: normal normal bold 16px/19px Montserrat;
+    letter-spacing: 0px;
+    color: #080808;
+    opacity: 1;
+    text-decoration: none;
+    background-color: #F5F5F5;
+  }
+
+  .heading-course:hover{
+    transform: scale(1.2) perspective(1px);
+  }
+  
+  .heading-wishlist{
+    top: 21px;
+    left: 1633px;
+    width: 107px;
+    height: 19px;
+    text-align: left;
+    font: normal normal 300 16px/19px Montserrat;
+    letter-spacing: 0px;
+    color: #080808;
+    opacity: 1;
+    background-color: #F5F5F5;
+  }
+
+  .heading-wishlist:hover{
+    transform: scale(1.2) perspective(1px);
+  }
+  
+  .cart-icon{
+    top: 19px;
+    left: 1811px;
+    width: 24px;
+    height: 23px;
+    opacity: 1;
+    background-color: #F5F5F5;
+  }
+  
+  .cart-icon:hover{
+    transform: scale(1.4) perspective(1px);
+  }
+
+  .profile-icon{
+    top: 18px;
+    left: 1870px;
+    width: 24px;
+    height: 24px;
+    opacity: 1;
+    background-color: #F5F5F5;
+  }
+  
+  .profile-icon:hover{
+    transform: scale(1.4) perspective(1px);
+  }
+
+  .cart-icon{
+    margin-left: 0.7rem;
+  }
+  

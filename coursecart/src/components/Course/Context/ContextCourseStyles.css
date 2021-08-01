@@ -1,0 +1,17 @@
+/* Course Details */
+
+#course-details-section{
+	 display: flex;
+    width: 1640px;
+    height:680px;
+    background: transparent 0% 0% no-repeat padding-box;
+    margin-bottom: 0px;
+    justify-content: flex-start;
+    margin-left: 10px;
+}
+
+.section-courses{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+}

@@ -1,0 +1,81 @@
+
+/* Filter Bar */
+
+#filter-bar{
+	display: flex;
+  margin: 30px auto;
+  width: 1640px;
+  height: 48px;
+  background: transparent 0% 0% no-repeat padding-box;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  justify-content: space-between;
+}
+
+.filter{
+  display: flex;
+  width: 1226px;
+  justify-content: space-between;
+}
+
+.header-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.price-filter-btn{
+  width: 182px;
+  height: 40px;
+  background: transparent url('../../../images/Group\ 71.svg') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.filter-search{
+  display: flex;
+  width: 398px;
+  justify-content: flex-start;
+}
+
+.search-filter-input{
+  top: 219px;
+  left: 1382px;
+  width: 342px;
+  height: 40px;
+  background: #EFF2FF 0% 0% no-repeat padding-box;
+  padding-left: 1rem;
+  text-align: left;
+  font: normal normal 300 16px/19px Montserrat;
+  letter-spacing: 0px;
+  color: #000000;
+  border: none;
+}
+
+.myForm{
+  display: flex;
+  justify-content: flex-start
+}
+
+.search-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 219px;
+  left: 1728px;
+  width: 56px;
+  height: 40px;
+  background: #FF6738 0% 0% no-repeat padding-box;
+  opacity: 1;
+  border: none;
+}
+
+.search-icon{
+  display: flex;
+  top: 231px;
+  left: 1746px;
+  width: 13px;
+  height: 13px;
+  opacity: 1;
+  font-size: 10px;
+}
